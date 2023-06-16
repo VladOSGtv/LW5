@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta id="viewport" content="width=device-width, initial-scale=1.0">
+    <title> лаба 5</title>
+</head>
+<body>
+
+<h3> Завдання 1: Виконання операцій над трьома змінними </h3>
+    <p id="task1_first"> </p>
+    <p id="task1_second"> </p>
+    <p id="task1_third"> </p>
+    <p id="task1_fourth"> </p>
+    <p id="task1_fifth"> </p>
+
+    <script src="./js/task1.js"> </script>
+
+
+<h3>Завдання 2: Обчислення середнього арифметичного</h3>
+    <input type="number" id="number1" placeholder="Введіть число 1">
+    <input type="number" id="number2" placeholder="Введіть число 2">
+    <input type="number" id="number3" placeholder="Введіть число 3">
+    <button onclick="calculateAverage()">Обчислити</button>
+    <p id="result2"></p>
+
+    <script src="./js/task2.js"></script>
+
+
+<h3>Завдання 3: Розрахунок об'єму та площі поверхні циліндра</h3>
+    <label for="radius">Радіус:</label>
+    <input type="number" id="radius" placeholder="Введіть радіус"><br>
+    <label for="height">Висота:</label>
+    <input type="number" id="height" placeholder="Введіть висоту"><br>
+    <button onclick="calculateCylinder()">Обчислити</button>
+
+    <p id="volume"></p>
+    <p id="surfaceArea"></p>
+    <script src="./js/task2.js"></script>
+
+<h3>Завдання 4: Обчислення суми та виведення непарних чисел</h3>
+    <label for="numberA">Число A:</label>
+    <input type="number" id="numberA" placeholder="Введіть число A"><br>
+    <label for="numberB">Число B:</label>
+    <input type="number" id="numberB" placeholder="Введіть число B"><br>
+    <button onclick="calculateSumAndOddNumbers()">Обчислити</button>
+    <p id="sum"></p>
+    <p id="oddNumbers"></p>
+
+    <script src="./js/task2.js"></script>
+
+<h3>Завдання 5: Розрахунок кількості варіантів доставки</h3>
+    <label for="numberN">Число N:</label>
+    <input type="number" id="numberN" placeholder="Введіть число N"><br>
+    <button onclick="calculateDeliveryOptions()">Обчислити</button>
+    <p id="result5"></p>
+
+    <script src="./js/task2.js"></script>
+
+<h3>Завдання 6: Малювання фігур</h3>
+    <button onclick="drawRectangle()">Прямокутник</button>
+    <button onclick="drawRightTriangle()">Прямокутний трикутник</button>
+    <button onclick="drawEquilateralTriangle()">Рівносторонній трикутник</button>
+    <button onclick="drawDiamond()">Ромб</button>
+
+    <h4>Прямокутник:</h4>
+    <div id="rectangle"></div>
+
+    <h4>Прямокутний трикутник:</h4>
+    <div id="rightTriangle"></div>
+
+    <h4>Рівносторонній трикутник:</h4>
+    <div id="equilateralTriangle"></div>
+
+    <h4>Ромб:</h4>
+    <div id="diamond"></div>
+
+    <script src="./js/task2.js"></script>
+
+<h3>Завдання 7: Обробка масиву</h3>
+    <label for="arrayInput">Введіть масив (елементи розділені комою):</label>
+    <input type="text" id="arrayInput">
+    <button onclick="processArray()">Обробити</button>
+
+    <h4>Результати:</h4>
+    <p id="maxValue"></p>
+    <p id="minValue"></p>
+    <p id="sum7"></p>
+    <p id="average7"></p>
+    <p id="oddValues"></p>
+
+    <script src="./js/task2.js"></script>
+
+<h3>Завдання 8: Генерація та обробка двовимірного масиву</h3>
+    <h4>Результат:</h4>
+    <p id="matrixOutput"></p>
+
+    <script src="./js/task8.js"></script>
+
+    <style>
+        .matrix-element {
+            width:30px; /* Задайте розмір поля виводу в пікселях */
+            margin-right: px; /* Задайте відстань між полями в пікселях */
+        }
+    </style>
+
+
+<h3>Завдання 9: Арифметичні операції</h3>
+    <label for="num1">Введіть перше число:</label>
+    <input type="number" id="num1">
+    <br>
+    <label for="num2">Введіть друге число:</label>
+    <input type="number" id="num2">
+    <br>
+    <button onclick="performOperation('add')">Додати</button>
+    <button onclick="performOperation('sub')">Відняти</button>
+    <button onclick="performOperation('mul')">Помножити</button>
+    <button onclick="performOperation('div')">Поділити</button>
+    <br>
+    <div id="resultOutput"></div>
+
+    <script src="./js/task2.js"></script>
+
+</body>
+</html>
